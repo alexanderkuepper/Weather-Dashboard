@@ -1,0 +1,26 @@
+#town {
+    display: block;
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 10%;
+    font-size:  50;
+    font-family: fantasy;
+}
+
+#temp {
+    display: block;
+    text-align: center;
+    font-weight: bolder;
+    font-size:  50;
+    font-family: fantasy;
+}
+
+#icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    background-color: lightgrey;
+}

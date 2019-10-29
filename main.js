@@ -1,5 +1,5 @@
 var data;
-var api_key = "68612a66771d3b0c43d5db631b6a8057";
+var api_key = "Hier könnte ihr API Key stehen";
 var lat = 49.017255;
 var lon = 8.390352;
 var host = "https://api.openweathermap.org/data/2.5/weather?lat=" + lat + "&lon=" + lon + "&appid=" + api_key;

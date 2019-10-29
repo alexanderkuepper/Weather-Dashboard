@@ -1,10 +1,15 @@
 var data;
-var api_key = "Tragen Sie hier Ihren Key ein";
+var api_key = "68612a66771d3b0c43d5db631b6a8057";
 var lat = 49.017255;
 var lon = 8.390352;
 var host = "https://api.openweathermap.org/data/2.5/weather?lat=" + lat + "&lon=" + lon + "&appid=" + api_key;
 
-$.getJSON(host, data, success);
+update();
+setInterval(update, 2000);
+
+function update() {
+    $.getJSON(host, data, success);
+}
 
 function success(data) {
     document.getElementById("town").innerText = "Wetter in " + data.name;

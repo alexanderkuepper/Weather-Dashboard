@@ -2,7 +2,7 @@
 
 Das Dashboard zeigt das Wetter und die Temperatur an. 
 
-#Konfiguration
+# Konfiguration
 
 1. Um den Ort zu ändern muss man `lat` und `lon` ändern
 2. Bitte trage den Api Key unter `api_key` ein 
